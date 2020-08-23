@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { QuotesComponent } from './components/quotes/quotes.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AddquoteComponent } from './components/addquote/addquote.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
     QuoteComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddquoteComponent
   ],
   imports: [
     BrowserModule
