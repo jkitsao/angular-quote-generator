@@ -6,6 +6,7 @@ import { QuotesComponent } from './components/quotes/quotes.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddquoteComponent } from './components/addquote/addquote.component';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AddquoteComponent } from './components/addquote/addquote.component';
     QuotesComponent,
     QuoteComponent,
     NavbarComponent,
-    AddquoteComponent
+    AddquoteComponent,
+    DateAgoPipe
   ],
   imports: [
     BrowserModule,

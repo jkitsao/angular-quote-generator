@@ -4,7 +4,7 @@ export class Quote{
     quote:string;
     upvote:number;
     downvote:number;
-    created:string;
+    created:any;
     bgimage:string;
    
 }

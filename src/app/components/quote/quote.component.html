@@ -14,17 +14,17 @@
         >{{ quote.author }}
       </p>
       <div class="flex-badges">
-        <span class="btn bg-success text-light" (click)="handleUpvote()">
+        <span class="text-light px-2 badge-success" (click)="handleUpvote()">
           <strong>upvote</strong> {{ quote.upvote }}
         </span>
-        <span
-          class="btn button-small bg-danger text-light"
-          (click)="handleDownvote()"
-        >
+        <span class="text-light badge-info px-2" (click)="handleDownvote()">
           downvote{{ " " }}{{ quote.downvote }}
         </span>
       </div>
-      <span class="btn btn-warning mt-4" (click)="delete(quote)">delete</span>
+      <span class="text-danger mt-4 right-0" (click)="delete(quote)"
+        >delete</span
+      >
+      <span> date{{ quote.created | dateAgo }} </span>
     </div>
   </div>
 </div>

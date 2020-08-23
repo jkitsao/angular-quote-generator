@@ -29,17 +29,20 @@ message:string;
   ngOnInit(): void {
   }
 onSubmit(){
-  const quote={
-    id:this.getId(),
-    author:this.name,
-    quote:this.message,
-    upvote:0,
-    downvote:0,
-    created:Date.now(),
-    bgimage:this.getUrl()
+  if(this.name && this.message !=""){
 
+    const quote={
+      id:this.getId(),
+      author:this.name,
+      quote:this.message,
+      upvote:0,
+      downvote:0,
+      created:Date.now(),
+      bgimage:this.getUrl()
+  
+    }
+    this.addQuote.emit(quote)
   }
-  this.addQuote.emit(quote)
-
+this.name="cannot be empty write something please"
 }
 }
