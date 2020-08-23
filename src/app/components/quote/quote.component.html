@@ -1,0 +1,30 @@
+<div class="pad">
+  <div class="card-1">
+    <div class="card_image">
+      <img src="{{ quote.bgimage }}" />
+    </div>
+    <div class="overlay"></div>
+    <div class="card_title title-white py3">
+      <p>
+        <strong>Quote: "{{ " " }}</strong
+        ><span class="quote-text">{{ quote.quote }}"</span>
+      </p>
+      <p>
+        <strong>Author:{{ " " }}</strong
+        >{{ quote.author }}
+      </p>
+      <div class="flex-badges">
+        <span class="btn bg-success text-light" (click)="handleUpvote()">
+          <strong>upvote</strong> {{ quote.upvote }}
+        </span>
+        <span
+          class="btn button-small bg-danger text-light"
+          (click)="handleDownvote()"
+        >
+          downvote{{ " " }}{{ quote.downvote }}
+        </span>
+      </div>
+      <span class="btn btn-warning mt-4" (click)="delete(quote)">delete</span>
+    </div>
+  </div>
+</div>
