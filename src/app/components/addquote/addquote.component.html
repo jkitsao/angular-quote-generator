@@ -2,13 +2,14 @@
   <div class="card shadow-lg px-4 py-4">
     <form>
       <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="name" placeholder="Name" [(ngModel)]="name" />
       <label for="message">Message</label>
       <textarea
         id="message"
         cols="30"
         rows="10"
         placeholder="Message"
+        [(ngModel)]="message"
       ></textarea>
       <input type="submit" value="Submit" />
     </form>
