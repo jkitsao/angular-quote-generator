@@ -6,5 +6,5 @@ export class Quote{
     downvote:number;
     created:string;
     bgimage:string;
-    isdeleted:boolean;
+   
 }

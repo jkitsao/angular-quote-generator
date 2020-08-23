@@ -28,7 +28,7 @@ export class QuotesComponent implements OnInit {
         downvote:0,
         bgimage:'https://source.unsplash.com/user/erondu/720x480',
         created:'2020',
-        isdeleted:false
+        
       },
       {id:this.getId(),
         author:'kitsao',
@@ -37,7 +37,7 @@ export class QuotesComponent implements OnInit {
         downvote:0,
         bgimage:'https://source.unsplash.com/collection/190737/720x480',
         created:'2020',
-        isdeleted:false
+        
 
       },
       {id:this.getId(),
@@ -47,7 +47,7 @@ export class QuotesComponent implements OnInit {
         downvote:0,
         upvote:0,
         created:'2020',
-        isdeleted:false
+        
 
       },
       {id:this.getId(),
@@ -57,7 +57,7 @@ export class QuotesComponent implements OnInit {
         upvote:0,
         bgimage:'https://source.unsplash.com/collection/190727/720x480',
         created:'2020',
-        isdeleted:false
+        
 
       },
       {id:this.getId(),
@@ -67,7 +67,7 @@ export class QuotesComponent implements OnInit {
         upvote:0,
         bgimage:'https://source.unsplash.com/random',
         created:'2020',
-        isdeleted:false
+        
 
       },
      
