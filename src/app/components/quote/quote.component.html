@@ -6,25 +6,33 @@
     <div class="overlay"></div>
     <div class="card_title title-white py3">
       <p>
-        <strong>Quote: "{{ " " }}</strong
-        ><span class="quote-text">{{ quote.quote }}"</span>
+        <strong class="">Quote: "{{ " " }}</strong
+        ><span class="author-text">{{ quote.quote }}"</span>
       </p>
       <p>
         <strong>Author:{{ " " }}</strong
-        >{{ quote.author }}
+        ><span class="quote-text">{{ quote.author }}</span>
       </p>
       <div class="flex-badges">
-        <span class="text-light px-2 badge-success" (click)="handleUpvote()">
+        <span
+          class="text-light px-2 badge-pill bg-success"
+          (click)="handleUpvote()"
+        >
           <strong>upvote</strong> {{ quote.upvote }}
         </span>
-        <span class="text-light badge-info px-2" (click)="handleDownvote()">
+        <span
+          class="text-light badge-pill bg-info px-2"
+          (click)="handleDownvote()"
+        >
           downvote{{ " " }}{{ quote.downvote }}
         </span>
       </div>
-      <span class="text-danger mt-4 right-0" (click)="delete(quote)"
-        >delete</span
-      >
-      <span> date{{ quote.created | dateAgo }} </span>
+      <div class="flex justify-content-between mt-4 align-bottom">
+        <span> posted {{ " " }}{{ quote.created | dateAgo }} </span>
+        <span (click)="delete(quote)" class="right-0 badge-pill p-2 bg-blood"
+          >delete</span
+        >
+      </div>
     </div>
   </div>
 </div>
