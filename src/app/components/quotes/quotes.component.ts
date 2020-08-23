@@ -17,6 +17,11 @@ export class QuotesComponent implements OnInit {
       return q.id!=quote.id
     })
   }
+  addQuote(quote:Quote){
+    this.quotes.unshift(quote)
+    // console.log(quote)
+
+  }
   constructor() { }
 
   ngOnInit() {

@@ -1,8 +1,14 @@
 <div class="container my-4">
   <div class="card shadow-lg px-4 py-4">
-    <form>
+    <form (ngSubmit)="onSubmit()">
       <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Name" [(ngModel)]="name" />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Name"
+        [(ngModel)]="name"
+      />
       <label for="message">Message</label>
       <textarea
         id="message"
@@ -10,6 +16,7 @@
         rows="10"
         placeholder="Message"
         [(ngModel)]="message"
+        name="message"
       ></textarea>
       <input type="submit" value="Submit" />
     </form>
