@@ -1,7 +1,7 @@
 <div class="container my-4">
-  <div class="card shadow-lg px-4 py-4">
+  <div class="card shadow-lg px-4 py-4 bg-darken-1">
     <form (ngSubmit)="onSubmit()">
-      <label for="name">Name</label>
+      <label for="name" class="text-success">Name</label>
       <input
         type="text"
         id="name"
@@ -9,12 +9,12 @@
         placeholder="Name"
         [(ngModel)]="name"
       />
-      <label for="message">Message</label>
+      <label for="message" class="text-success">Quote</label>
       <textarea
         id="message"
         cols="30"
         rows="10"
-        placeholder="Message"
+        placeholder="add your quote"
         [(ngModel)]="message"
         name="message"
       ></textarea>

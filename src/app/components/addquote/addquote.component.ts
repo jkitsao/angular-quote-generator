@@ -15,11 +15,12 @@ message:string;
     let randomId:number= Math.random()
     return randomId
    }
-  getrandom(){
-   let random=Math.floor(Math.random()*10)
-    return random
-  }
-   img=[2,3,4,5,6,7]
+  
+   img=[2,3,4,5]
+   getrandom(){
+    let random=Math.floor(Math.random()*this.img.length)
+     return random
+   }
    getUrl(){
     //  let random=Math.floor(Math.random()*1000)
     let randomUrl:string= `https://source.unsplash.com/collection/1907${this.img[this.getrandom()]}7/720x480`

@@ -13,6 +13,7 @@ textarea {
   border: 1px solid #cdcdcd;
   border-radius: 4px;
   font-size: .95rem;
+  max-height: 5rem;
 }
 
 [type=text]:focus,
