@@ -32,7 +32,7 @@ export class QuotesComponent implements OnInit {
         upvote:0,
         downvote:0,
         bgimage:'https://source.unsplash.com/user/erondu/720x480',
-        created:Date.now(),
+        created:1598216988421,
         
       },
       {id:this.getId(),
@@ -51,7 +51,7 @@ export class QuotesComponent implements OnInit {
         bgimage:'https://source.unsplash.com/collection/190728/720x480',
         downvote:0,
         upvote:0,
-        created:'1598216989421',
+        created:1598216989421,
         
 
       },
