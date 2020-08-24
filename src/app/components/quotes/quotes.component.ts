@@ -27,8 +27,8 @@ export class QuotesComponent implements OnInit {
   ngOnInit() {
     this.quotes=[
       { id:this.getId(),
-        author:'fujo',
-        quote:'live once hell yah',
+        author:'Jane Doe',
+        quote:'Happiness is a direction, not a place',
         upvote:0,
         downvote:0,
         bgimage:'https://source.unsplash.com/user/erondu/720x480',
@@ -36,8 +36,8 @@ export class QuotesComponent implements OnInit {
         
       },
       {id:this.getId(),
-        author:'kitsao',
-        quote:'live once hell yah',
+        author:'James persons',
+        quote:'It is not how much we have, but how much we enjoy, that makes happiness',
         upvote:0,
         downvote:0,
         bgimage:'https://source.unsplash.com/collection/190737/720x480',
@@ -46,18 +46,18 @@ export class QuotesComponent implements OnInit {
 
       },
       {id:this.getId(),
-        author:'kitsao',
+        author:'Charles law',
         quote:'lily was a little girl afraid of the big wide world she was right and you were wrong',
         bgimage:'https://source.unsplash.com/collection/190728/720x480',
         downvote:0,
         upvote:0,
-        created:'1598216989421',
+        created:1598216999421,
         
 
       },
       {id:this.getId(),
         author:'jackson',
-        quote:'live once hell yah',
+        quote:'A great obstacle to happiness is to expect too much happiness.',
         downvote:0,
         upvote:0,
         bgimage:'https://source.unsplash.com/collection/190727/720x480',
@@ -67,7 +67,7 @@ export class QuotesComponent implements OnInit {
       },
       {id:this.getId(),
         author:'kevin',
-        quote:'live once hell yah',
+        quote:'Happiness is not something ready made',
         downvote:0,
         upvote:0,
         bgimage:'https://source.unsplash.com/random',
