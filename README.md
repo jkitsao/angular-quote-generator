@@ -26,7 +26,12 @@ or
 ```
 yarn
 ```
+### Build for production
 
+```bash
+
+ng build
+```
 ### Usage
 
 #### Run the app
@@ -34,10 +39,12 @@ yarn
 ```
 ng serve -o
 ```
---
+open your browser on localhost:4200
+
 ## App Info
 
 ### Author
+
 
 Jackson kitsao
 [Jackson kitsao](http://www.twitter.com/Jacksonkitsao5)
