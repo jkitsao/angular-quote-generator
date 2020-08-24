@@ -1,5 +1,5 @@
 <h1>Angular-quote-generator</h1>
-<img src='https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif'/>
+<img src='https://media.giphy.com/media/QNFhOolVeCzPQ2Mx85/giphy.gif' width=900 height=400 />
 
 ### Author [Jackson kitsao](https://github.com/jkitsao) Also follow me on [twitter](www.twitter.com/Jacksonkitsao5)
 
@@ -39,7 +39,7 @@ ng serve -o
 
 ### Author
 
-Brad Traversy
+Jackson kitsao
 [Jackson kitsao](http://www.twitter.com/Jacksonkitsao5)
 
 ### Version
